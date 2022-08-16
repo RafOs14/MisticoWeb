@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub', sans-serif;
+}
+
+/*Navbar*/
+
+.navbar {
+    background: linear-gradient(to bottom, #B7AEE5, #D9B1CD)
+}
+
+#nav {
+    background: #6f6f6f6f;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+    color: #000;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 1rem;
+}
+.title>span{
+    color: #161415ae;
+}
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+    color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* end of navbar */
+
+/*Estilos main section */
+
+.main{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.main > p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+.main img {
+    border-radius: 22%;
+}
+
+/* container img box-mockup index */
+.parrafo{
+    font-size: 1.5rem;
+}
+
+/*Index*/
+.ritual-title{
+    font-weight: bold;
+    letter-spacing:3px;
+    margin-bottom: 3rem;
+}
+
+.box-img{
+    width: 100%;
+    height: auto;
+    max-width: 85%;
+    border-radius: 22%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.ritual-p{
+    color: rgb(120, 119, 119);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.box-p{
+    background: rgba(255, 192, 203, 0.284);
+    padding: 0.6rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+}
+/*Index*/
+
+#index{    
+    background: url(../assets/Bakcground2.png) no-repeat center center fixed;
+}
+
+#about{    
+    background: url(../assets/Background-opacity.png) no-repeat center center fixed;
+}
+
+.box-img>img{
+    width: 100%;
+    
+}
+/*Instagram container*/
+.igcontainer a img {
+    width: 350px;
+    height: 350px;
+    margin: 2px;
+    padding: 2px;
+}
+/*Instagram container*/
+
+#btnsuscribe {
+    background: linear-gradient(to right, #FFDDF5, #B7AEE5);
+    border: none;
+    padding: .3rem;
+}
+#btnsuscribe:hover {
+    background: linear-gradient(to right, #fcaae3, #9181e5);
+}
+
+/*End of main section*/
+
+
+/*Estilos Footer*/
+
+.footer {
+    background: #F8F1F6;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.footer-icon {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.footer .card {
+    background: #F8F1F6;
+    border: 0px;
+}
+
+/*End estilos footer*/
+
+/*Media Querys y efectos*/
+
+@media screen and (min-width: 768px) {
+    .main img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #logo_main {
+        width: 100%;
+    }
+}
+
+.hover{
+    transition: all 0.5s ease-in-out;
+}
+
+.hover:hover{
+    background: linear-gradient(133deg,#5124e6c8 20%, #e5e5f7 80%, transparent 80%, #5124e6c8 );
+    border:none; 
+    transition: all .5s;
+}
+
+:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.h:hover {
+    transform: scale(1.1) !important;
+    transition: transform 300ms ease-in-out !important;
+    cursor: pointer;
+}
+
+/*Media Querys y efectos END*/
+
+
